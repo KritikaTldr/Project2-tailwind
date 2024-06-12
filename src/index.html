@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Shop | Monogram Consoles</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="p-0 m-0 ">
+<body class="p-0 m-0 bg-zinc-200">
 <nav class="p-2 sticky top-0 z-10">
-    <div class="flex justify-between h-16 w-full bg-blue-950">
+    <div class="flex flex-col md:flex-row justify-between h-16 w-full bg-blue-950">
         <div class="flex ml-1">
             <img src="img.png" alt="logo" class="h-12 mt-2"/>
             <h1 class="uppercase text-xl font-medium mt-4 ml-2 text-orange-200">monogram</h1>
         </div>
-        <div>
+        <div class="md:flex hidden">
             <ul class="flex text-sm text-orange-200 mt-5 uppercase ">
                 <li class="mr-5 hover:text-orange-400">how it works</li>
                 <li class="mr-5 hover:text-white">workflows</li>
@@ -21,16 +21,14 @@
                 <li class="mr-5 hover:text-orange-400">blogs</li>
                 <li class="mr-5 hover:text-orange-400">support</li>
                 <li class="mr-2 hover:text-orange-400">shop</li>
-                <li class="mr-2 hover:text-orange-400">shop</li>
-
-
             </ul>
         </div>
     </div>
 </nav>
-<div>
+<div class="relative">
     <img src="img_1.png" alt="heroImage" class="w-full">
-    <h1 class="absolute inset-0 flex items-center justify-center text-blue-950 text-5xl font-bold uppercase ">A Console for
+    <h1 class="absolute inset-0 flex items-center justify-center text-blue-950 text-5xl font-bold uppercase ">A Console
+        for
         <br>Every Workflow</h1>
     <p class="absolute inset-0 flex items-center justify-center text-blue-950 mt-48 text-xl">Discover the perfect
         console for yours.</p>
@@ -39,8 +37,8 @@
 
 <div style="max-width: 1000px;margin: auto">
     <!--    first div-->
-    <div class="flex justify-between items-center flex-grow my-10 ">
-        <div class="w-1/2 mr-10">
+    <div class="flex flex-col gap-4 md:flex-row  justify-between items-center flex-grow  my-10 sm ">
+        <div class="w-1/2">
             <div class="relative  text-blue-950 ">
                 <img src="img_2.png" alt="keyboard" class="w-full">
                 <div class="absolute top-0 right-0 bg-orange-400 py-1 px-2 mt-6">
@@ -61,7 +59,7 @@
             <div class="relative  text-blue-950">
                 <img src="img_3.png" alt="keyboard" class="w-full">
                 <div class="absolute top-0 right-0 bg-orange-400 py-1 px-2 mt-6">
-                    <a href="#" class="text-white uppercase text-xs font-semibold">Pre-order</a>
+                    <a href="" class="text-white uppercase text-xs font-semibold">Pre-order</a>
                 </div>
                 <div class="flex justify-between mt-3">
                     <div class="">
@@ -74,12 +72,10 @@
                 </div>
             </div>
         </div>
-
     </div>
 
-
-    <div class="flex justify-between items-center flex-grow">
-        <div class="w-1/2 mr-10">
+    <div class="flex flex-col gap-4 md:flex-row justify-between items-center flex-grow">
+        <div class="w-1/2 ">
             <div class="relative  text-blue-950 ">
                 <img style="width: 500px" src="img_4.png" alt="keyboard" class="w-full">
                 <div class="absolute top-0 right-0 bg-orange-400 py-1 px-2 mt-6">
@@ -122,9 +118,9 @@
         <p class="text-xl text-blue-950 ">Discover the perfect console for yours.</p>
     </div>
 </div>
-<div style="max-width: 1000px;margin: auto">
-    <div class="flex justify-between items-center flex-grow my-10 ">
-        <div class="w-1/3 mr-10">
+<div style="max-width: 1000px;margin: auto" class="max-w-[1000px]">
+    <div class=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4  my-10 mt-24 p-4">
+        <div>
             <div class="relative  text-blue-950 ">
                 <img src="img_6.png" alt="keyboard" class="w-full h-52 ">
                 <div class="absolute top-0 right-0 bg-orange-400 py-1 px-2 mt-6">
@@ -140,7 +136,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/3 mr-10">
+        <div>
             <div class="relative  text-blue-950 ">
                 <img src="img_17.png" alt="keyboard" class="w-full h-52 ">
                 <div class="absolute top-0 right-0 bg-orange-400 py-1 px-2 mt-6">
@@ -156,7 +152,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/3 mr-10">
+        <div>
             <div class="relative  text-blue-950 ">
                 <img src="img_7.png" alt="keyboard" class="w-full h-52 ">
                 <div class="absolute top-0 right-0 bg-orange-400 py-1 px-2 mt-6">
@@ -172,11 +168,8 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="flex justify-between items-center flex-grow my-10 ">
-        <div class="w-1/3 mr-10">
-            <div class="relative  text-blue-950 ">
+        <div>
+            <div class="relative text-blue-950 ">
                 <img src="img_14.png" alt="keyboard" class="w-full h-52 ">
                 <div class="absolute top-0 right-0 bg-orange-400 py-1 px-2 mt-6">
                     <a href="#" class="text-white uppercase text-xs font-semibold">Pre-order</a>
@@ -191,7 +184,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/3 mr-10">
+        <div>
             <div class="relative  text-blue-950 ">
                 <img src="img_14.png" alt="keyboard" class="w-full h-52 ">
                 <div class="absolute top-0 right-0 bg-orange-400 py-1 px-2 mt-6">
@@ -207,7 +200,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/3 mr-10 mt-6">
+        <div>
             <div class="relative  text-blue-950 ">
                 <img src="img_14.png" alt="keyboard" class="w-full h-52 ">
                 <div class="absolute top-0 right-0 bg-orange-400 py-1 px-2 mt-6">
@@ -223,9 +216,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="flex justify-between items-center flex-grow my-10 ">
-        <div class="w-1/3 mr-10">
+        <div>
             <div class="relative  text-blue-950 ">
                 <img src="img_14.png" alt="keyboard" class="w-full h-52 ">
                 <div class="absolute top-0 right-0 bg-orange-400 py-1 px-2 mt-6">
@@ -241,7 +232,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/3 mr-10 mt-6">
+        <div>
             <div class="relative  text-blue-950 ">
                 <img src="img_16.png" alt="keyboard" class="w-full h-52 ">
                 <div class="absolute top-0 right-0 bg-orange-400 py-1 px-2 mt-6">
@@ -257,7 +248,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/3 mr-10 mt-6">
+        <div>
             <div class="relative  text-blue-950 ">
                 <img src="img_13.png" alt="keyboard" class="w-full h-52 ">
                 <div class="absolute top-0 right-0 bg-orange-400 py-1 px-2 mt-6">
@@ -275,64 +266,72 @@
         </div>
     </div>
 </div>
-<footer>
-    <div class="flex justify-center w-full h-80 bg-blue-950 text-orange-200 mt-20  tracking-wider">
-        <div class=" mx-24 mt-10 ">
-            <h3 class="uppercase text-xs font-bold  mb-3">monogram</h3>
-            <ul class="text-sm">
-                <li class="mb-1">305 King St. W.</li>
-                <li class="mb-1">Suite 502</li>
-                <li class="mb-1">Kitchener, ON</li>
-                <li class="mb-1">Canada</li>
-            </ul>
-        </div>
-        <div class="mr-24 mt-10">
-            <h3 class="uppercase text-xs font-bold mb-3">quick links</h3>
-            <ul class="text-sm">
-                <li class="mb-1 hover:underline hover:text-orange-400">Home</li>
-                <li class="mb-1 hover:underline hover:text-orange-400">How it Works</li>
-                <li class="mb-1 hover:underline hover:text-orange-400">Shop</li>
-                <li class="mb-1 hover:underline hover:text-orange-400">Download</li>
-            </ul>
-        </div>
-        <div class="mr-24 mt-10">
-            <h3 class="uppercase text-xs font-bold mb-3">Help</h3>
-            <ul class="text-sm">
-                <li class="mb-1 hover:underline hover:text-orange-400">FAQs</li>
-                <li class="mb-1 hover:underline hover:text-orange-400">Support Center</li>
-                <li class="mb-1 hover:underline hover:text-orange-400">Shipping and Sales</li>
-            </ul>
-        </div>
-        <div class="mr-24 mt-10">
-            <h3 class="uppercase text-xs font-bold mb-3">Information</h3>
-            <ul class="text-sm">
-                <li class="mb-1 hover:underline hover:text-orange-400">About Us</li>
-                <li class="mb-1 hover:underline hover:text-orange-400">Work with us</li>
-                <li class="mb-1 hover:underline hover:text-orange-400">Privacy Policy</li>
-                <li class="mb-1 hover:underline hover:text-orange-400">Terms of Use</li>
-                <li class="mb-1 hover:underline hover:text-orange-400">Terms of Sale</li>
-                <li class="mb-1 hover:underline hover:text-orange-400">Press Kit</li>
-            </ul>
-        </div>
-        <div class="mr-24 mt-10">
-            <h3 class="uppercase text-xs font-bold mb-3">subscribe to monogram</h3>
-            <ul class="text-sm">
-                <li class="mb-1">Master productivity with Creative Console and get all <br> the latest Monogram news.
-                </li>
-            </ul>
-            <label>
-                <input type="text" placeholder="Email Address"
-                       class="bg-transparent border border-orange-200 placeholder:text-sm placeholder: pl-2 mt-2 py-0.5">
-            </label>
-            <button class="bg-orange-200 text-blue-950 py-2 ml-3 px-5 rounded-full text-xs uppercase font-semibold">Submit</button>
-            <br>
-            <i class="fab fa-instagram text-blue-950 bg-orange-200 py-0.5 px-1.5 rounded-full mr-2 mt-4 text-sm"></i>
-            <i class="fab fa-twitter text-blue-950 bg-orange-200 py-0.5 px-1.5 rounded-full mr-2 mt-4 text-sm"></i>
-            <i class="fab fa-facebook-f text-blue-950 bg-orange-200 py-0.5 px-2 rounded-full mr-2 mt-4 text-sm"></i>
-            <i class="fab fa-youtube text-blue-950 bg-orange-200 py-0.5 px-1 rounded-full mr-2 mt-4 text-sm"></i>
-            <p class="text-sm mt-4">© Monogram 2024</p>
-        </div>
-
+<footer class="w-full px-10 py-16 bg-blue-950 flex flex-col justify-evenly md:flex-row md:justify-evenly  text-orange-200 mt-20  tracking-wider">
+    <div>
+        <h3 class="uppercase text-xs font-bold  mb-3">monogram</h3>
+        <ul class="text-sm">
+            <li class="mb-1">305 King St. W.</li>
+            <li class="mb-1">Suite 502</li>
+            <li class="mb-1">Kitchener, ON</li>
+            <li class="mb-1">Canada</li>
+        </ul>
+    </div>
+    <div>
+        <h3 class="uppercase text-xs font-bold  mb-3">monogram</h3>
+        <ul class="text-sm">
+            <li class="mb-1">305 King St. W.</li>
+            <li class="mb-1">Suite 502</li>
+            <li class="mb-1">Kitchener, ON</li>
+            <li class="mb-1">Canada</li>
+        </ul>
+    </div>
+    <div>
+        <h3 class="uppercase text-xs font-bold mb-3">quick links</h3>
+        <ul class="text-sm">
+            <li class="mb-1 hover:underline hover:text-orange-400">Home</li>
+            <li class="mb-1 hover:underline hover:text-orange-400">How it Works</li>
+            <li class="mb-1 hover:underline hover:text-orange-400">Shop</li>
+            <li class="mb-1 hover:underline hover:text-orange-400">Download</li>
+        </ul>
+    </div>
+    <div>
+        <h3 class="uppercase text-xs font-bold mb-3">Help</h3>
+        <ul class="text-sm">
+            <li class="mb-1 hover:underline hover:text-orange-400">FAQs</li>
+            <li class="mb-1 hover:underline hover:text-orange-400">Support Center</li>
+            <li class="mb-1 hover:underline hover:text-orange-400">Shipping and Sales</li>
+        </ul>
+    </div>
+    <div>
+        <h3 class="uppercase text-xs font-bold mb-3">Information</h3>
+        <ul class="text-sm">
+            <li class="mb-1 hover:underline hover:text-orange-400">About Us</li>
+            <li class="mb-1 hover:underline hover:text-orange-400">Work with us</li>
+            <li class="mb-1 hover:underline hover:text-orange-400">Privacy Policy</li>
+            <li class="mb-1 hover:underline hover:text-orange-400">Terms of Use</li>
+            <li class="mb-1 hover:underline hover:text-orange-400">Terms of Sale</li>
+            <li class="mb-1 hover:underline hover:text-orange-400">Press Kit</li>
+        </ul>
+    </div>
+    <div>
+        <h3 class="uppercase text-xs font-bold mb-3">subscribe to monogram</h3>
+        <ul class="text-sm">
+            <li class="mb-1">Master productivity with Creative Console and get all <br> the latest Monogram news.
+            </li>
+        </ul>
+        <label>
+            <input type="text" placeholder="Email Address"
+                   class="bg-transparent border border-orange-200 placeholder:text-sm placeholder: pl-2 mt-2 py-0.5">
+        </label>
+        <button class="bg-orange-200 text-blue-950 py-2 ml-3 px-5 rounded-full text-xs uppercase font-semibold">
+            Submit
+        </button>
+        <br>
+        <i class="fab fa-instagram text-blue-950 bg-orange-200 py-0.5 px-1.5 rounded-full mr-2 mt-4 text-sm"></i>
+        <i class="fab fa-twitter text-blue-950 bg-orange-200 py-0.5 px-1.5 rounded-full mr-2 mt-4 text-sm"></i>
+        <i class="fab fa-facebook-f text-blue-950 bg-orange-200 py-0.5 px-2 rounded-full mr-2 mt-4 text-sm"></i>
+        <i class="fab fa-youtube text-blue-950 bg-orange-200 py-0.5 px-1 rounded-full mr-2 mt-4 text-sm"></i>
+        <p class="text-sm mt-4">© Monogram 2024</p>
     </div>
 </footer>
 </body>
